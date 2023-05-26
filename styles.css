@@ -1,0 +1,46 @@
+*{
+    background-color: #f2f2fe;
+}
+#social{
+    text-align: center;
+    padding-top: 20%;
+    font-size: 50px;
+}
+#social i{
+    border: 2px solid #fff;
+    box-shadow: 0 10px 10px rgba(0.1,0.1,0.1,0.1) ;
+    padding: 25px 25px;
+    margin: 12px;
+    transition: background-position 0.5s, color 0.5s;
+}
+#facebook{
+    color:rgb(52, 52, 231);
+    transition: cubic-bezier(0.215, 0.610, 0.355, 1);
+    background-image: linear-gradient(#fff 50%, rgb(52, 52, 231) 50%);
+    background-size: 100% 200%;
+    background-position: 0% 5%;
+}
+#youtube{
+    color: rgba(255, 0, 0, 0.89);
+    background-image: linear-gradient(#fff 50%, red 50%);
+    background-size: 100% 200%;
+    background-position: 0% 5%;
+}
+#twitter{
+    color: rgb(19, 121, 218);
+    background-image: linear-gradient(#fff 50%, rgb(19, 121, 218) 50%);
+    background-size: 100% 200%;
+    background-position: 0% 5%;
+}
+#twitter:hover{
+    background-position: 0% 100%;
+    color: #fff;
+}
+#youtube:hover{
+    background-position: 0% 100%;
+    color: #fff;
+}
+#facebook:hover{
+    background-position: 0% 100%;
+    color: #fff;
+}

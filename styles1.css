@@ -1,0 +1,15 @@
+p{
+    font-family: 'Poppins',sans-serif;
+    line-height: 12px;
+    background: url(image2.jpg) ;
+    -webkit-background-clip: text;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    -webkit-text-fill-color: rgba(255, 255, 255, 0) ;
+    background-size: 70vh;
+    background-position: center;
+}
+body{
+    background: #000;
+    overflow: hidden;
+}
